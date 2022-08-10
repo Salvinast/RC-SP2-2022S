@@ -1,13 +1,93 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  color: #2B283A;
+}
+
+.nav {
+  display: flex;
+  background-color: #F55A5A;
+  gap: 7px;
+  height: 55px;
+  width: 550px;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav--image {
+  height: 24px;
+  width: 24px;
+}
+
+.nav--text {
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: -0.075em;
+  color: white;
+}
+
+.card--imageMountain {
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+  margin: 36px 19px 36px 40px;
+  object-fit: cover;
+}
+
+.card {
+  display: flex;
+}
+
+.card--imagePoint {
+  width: 7px;
+  height: 10px;
+  margin: 55px 4px 0 0;
+}
+
+.card--location {
+  font-weight: 400;
+  font-size: 10.24px;
+  letter-spacing: 0.17em;
+  margin-right: 12px;
+}
+
+.card--link {
+  color: #918E9B;
+  text-decoration: underline;
+  font-weight: 400;
+  font-size: 10px;
+}
+
+.card--title {
+  font-weight: 700;
+  font-size: 25px;
+  margin: 6px 0 10px;
+}
+
+.card--startDate {
+  font-weight: 700;
+  font-size: 10.24px;
+}
+
+.card--endDate {
+  font-weight: 700;
+  font-size: 10.24px;
+}
+
+.card--description {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  width: 326px;
+}
+
+.card--underline {
+  width: 478px;
+  height: 1px;
+  background-color: #F5F5F5;
+  margin: -15px 0 -15px 40px;
 }
